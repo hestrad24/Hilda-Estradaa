@@ -1,0 +1,86 @@
+/* Utily Classes */
+.p-80 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.box {
+  width: 100%;
+  float: none;
+}
+
+/* Header */
+#header-top {
+  height: 100%;
+}
+
+.foto1 {padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px;}
+
+ul.horizontal{
+  margin:0;
+  padding:0;
+  }
+
+  ul.horizontal li{
+    display:block;
+    float:left;
+    padding:0 10px;
+    
+    }
+
+/* Navbar */
+#navbar {
+  text-align: center;
+}
+
+menu{
+  background: rgb(236, 236, 235);
+  padding:2px 1px;
+}
+
+menu li{
+  display: Inline-block;
+  text-align: center;
+  list-style: none;
+  padding:3px
+  
+}
+
+#navbar .logo {
+  float: none;
+}
+
+#navbar ul {
+  float: none;
+  display: block;
+}
+
+#navbar ul li {
+  float: none;
+  padding:10px;
+}
+
+#navbar ul li:nth-child(4) {
+  display: none;
+}
+
+img.alineadoTextoImagenCentro{
+  vertical-align: middle;
+}
+
+/* Showcase */
+#showcase {
+  padding: 40px;
+}
+
+/* Contact */
+#contact input,
+#contact textarea
+ {
+   width: 100%;
+ }
+
+ /* Footer */
+ #mainfooter {
+   text-align: center;
+ }

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <head>
+        <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">  
+<title>Mi Portafolio</title>
+
+.<foto1 {padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px;}>
+
+</foto1>
+
+
+<style type="text/css">
+  #navegador ul{
+     list-style-type: none;
+     text-align: center;
+  }
+  #navegador li{
+     display: inline;
+     text-align: center;
+     margin: 0 10px 0 0;
+  }
+  #navegador li a {
+     padding: 2px 7px 2px 7px;
+     color: #666;
+     background-color: #86cfec;
+     border: 1px solid #86cfec;
+     text-decoration: none;
+  }
+  #navegador li a:hover{
+     background-color: #333333;
+     color: #ffffff;
+  }
+     </style>
+
+
+<style>
+  .slide {
+      position: relative;
+      box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+      margin-top: 26px;
+  }
+
+  .slide-inner {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: calc( 300px + 3em);
+  }
+
+  .slide-open:checked + .slide-item {
+      position: static;
+      opacity: 100;
+  }
+
+  .slide-item {
+      position: absolute;
+      opacity: 0;
+      -webkit-transition: opacity 0.6s ease-out;
+      transition: opacity 0.6s ease-out;
+  }
+
+  .slide-item img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+  }
+
+  .slide-control {
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+      font-size: 40px;
+      height: 40px;
+      line-height: 35px;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(0, -50%);
+      cursor: pointer;
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      text-align: center;
+      width: 40px;
+      z-index: 10;
+  }
+
+  .slide-control.prev {
+      left: 2%;
+  }
+
+  .slide-control.next {
+      right: 2%;
+  }
+
+  .slide-control:hover {
+      background: rgba(0, 0, 0, 0.8);
+      color: #aaaaaa;
+  }
+
+  #slide-1:checked ~ .control-1,
+  #slide-2:checked ~ .control-2,
+  #slide-3:checked ~ .control-3 {
+      display: block;
+  }
+
+  .slide-indicador {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      bottom: 2%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 10;
+  }
+
+  .slide-indicador li {
+      display: inline-block;
+      margin: 0 5px;
+  }
+
+  .slide-circulo {
+      color: #828282;
+      cursor: pointer;
+      display: block;
+      font-size: 35px;
+  }
+
+  .slide-circulo:hover {
+      color: #aaaaaa;
+  }
+
+  #slide-1:checked ~ .control-1 ~ .slide-indicador 
+      li:nth-child(1) .slide-circulo,
+  #slide-2:checked ~ .control-2 ~ .slide-indicador 
+       li:nth-child(2) .slide-circulo,
+  #slide-3:checked ~ .control-3 ~ .slide-indicador 
+       li:nth-child(3) .slide-circulo {
+      color: #428bca;
+  }
+
+  #titulo {
+      width: 100%;
+      position: absolute;
+      padding: 0px;
+      margin: 0px auto;
+      text-align: center;
+      font-size: 27px;
+      color: rgba(255, 255, 255, 1);
+      font-family: 'Open Sans', sans-serif;
+      z-index: 9999;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+          -1px 0px 2px rgba(255, 255, 255, 0);
+  }
+
+</style>
+
+    </head>
+
+    <body>
+
+  
+      <div class="w3-row-padding">
+            <div class="container">
+               <div class="w3-container w3-light-blue">
+                 <div id="navegador">
+              <ul>
+                <li><a href="#service"><i><b>Servicio</b></i></a></li>
+                <li><a href="#web porfolio"><i><b>Portafolio web</b></i></a></li>
+                <li><a href="#contact"><i><b>Contacto</b></i></a></li>
+                <li><a href="#social media"><i><b>Redes Sociales</b></i></a></li>
+                <li>|</li>
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="#seeker"><i class="fas fa-search"></i></span></a></li>
+            </ul>
+               </div>
+        </div>
+        </div>
+      </div>
+    </nav>
+    </nav>
+
+    <div id="showcase">
+     <section id="service" class="p-80">
+<div class="container">
+
+       
+          <br>
+          <br>
+          <br>
+          <footer id="mainfooter" class="p-80">
+            <div class="w3-container w3-light-blue">
+            <div align="left">
+          <h2><b><i>Servicio</i></b></h2>
+          </footer>
+        </div>
+</div>
+</div>
+      
+        <hr class="hr-blue">
+      <div class="w3-container w3-margin">
+
+        <div class="w3-container w3-light-grey">
+        <div class=".foto1">
+           
+          <footer id="mainfooter" class="p-80">
+          <p><img class="alineadoTextoImagenArriba" src="C:\Users\Estudiante\Desktop\portafolio/imagenes/trabajador.jpg" alt="pagina web" style="float:left; border: 10%; width:350px; height:350px;">
+            <br>
+            <div align="center">
+          <h3><b><i>Sobre mí</i></b></h3>
+</div>
+<br>
+          <div align="right">
+         <h5>Actualmente creo, diseño, actualizo y mantengo páginas web. Estoy continuamente aprendiendo<br> y adquiriendo nuevas habilidades en función a las actuales y futuras demandas y tendencias <br>tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general.
+          <br>
+          <br>
+          Apasionado con el trabajo que realizo, ofreciendo en cada proyecto total atención, dedicación,<br> personalización y calidad al cliente.</h5>
+        </p>
+        </div>
+        </div>
+      </footer>
+
+      </div>
+     </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="web porfolio" class="p-80">
+  <div class="w3-container w3-light-blue">
+<div align="center">
+  <footer id="mainfooter" class="p-80">
+
+<h2><b><i>Portafolio Web</i></b></h2>
+</footer>
+</div>
+</div>
+<br>
+
+<div class="slide">
+  <div class="slide-inner">
+      <input class="slide-open" type="radio" id="slide-1" 
+           name="slide" aria-hidden="true" hidden="" checked="checked">
+      <div class="slide-item">
+        <div align="center">
+          <img src="C:\Users\Estudiante\Desktop\portafolio/imagenes/pag web.jpg">
+      </div>
+    </div>
+      <input class="slide-open" type="radio" id="slide-2" 
+           name="slide" aria-hidden="true" hidden="">
+      <div class="slide-item">
+        <div align="center">
+          <img src="C:\Users\Estudiante\Desktop\portafolio/imagenes/marca.jpg">
+      </div>
+</div>
+
+      <input class="slide-open" type="radio" id="slide-3" 
+           name="slide" aria-hidden="true" hidden="">
+      <div class="slide-item">
+        <div align="center">
+          <img src="C:\Users\Estudiante\Desktop\portafolio/imagenes/pagina web 2.jpg">
+      </div>
+</div>
+
+      <label for="slide-3" class="slide-control prev control-1">‹</label>
+      <label for="slide-2" class="slide-control next control-1">›</label>
+      <label for="slide-1" class="slide-control prev control-2">‹</label>
+      <label for="slide-3" class="slide-control next control-2">›</label>
+      <label for="slide-2" class="slide-control prev control-3">‹</label>
+      <label for="slide-1" class="slide-control next control-3">›</label>
+      <ol class="slide-indicador">
+          <li>
+              <label for="slide-1" class="slide-circulo">•</label>
+          </li>
+          <li>
+              <label for="slide-2" class="slide-circulo">•</label>
+          </li>
+          <li>
+              <label for="slide-3" class="slide-circulo">•</label>
+          </li>
+      </ol>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="box">
+<p><div class="w3-container w3-light-blue">
+  
+  <div class="container">
+      <section id="social media" class="p-80">
+      
+        <marquee><h5 class="text-blue"><b><i>Redes Sociales</i></b></h5>
+      </section>
+      <ul class="small">
+        <a href="https://www.facebook.com/marketplace/item/486759409728801/">Facebook</a>
+        <br>
+        <a href="https://www.instagram.com/p/CYqlgvpoNus/?utm_source=ig_web_copy_link">Instagram</a>
+        <br>
+        <a href="https://twitter.com/toman_official?s=20&t=xI9NEkqjxCdTfoaTFDjDPg">Twitter</a>
+      </ul>
+   
+  </div>
+</div>
+
+    <div class="box">
+    <div class="w3-container w3-light-blue">
+    <div class="container">
+      <section id="contact" class="p-80">
+        <h5 class="text-blue"><b><i>Contacto</i></b></h5>
+      </section>
+      <ul class="small">
+        <li>201 320 1522</li>
+        <li>mail@isaias.com</li>
+      
+    </ul>
+    </marquee>
+ 
+  <hr class="hr-white">
+  <div align="center">
+      <p><i><b>Portafolio 2020-2022</b></i></p>
+ </div>
+</div>
+    </div>
+  </div>
+</div>
+</p>
+      
+ </body>
+
+
+</html>
